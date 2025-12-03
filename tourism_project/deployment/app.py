@@ -4,7 +4,7 @@ from huggingface_hub import hf_hub_download
 import joblib
 
 # Download the model from the Model Hub
-model_path = hf_hub_download(repo_id="Anil28053/Tourism-Prediction/tourism-model", filename="best_tourism_model_v1.joblib")
+model_path = hf_hub_download(repo_id="Anil28053/tourism-model", filename="best_tourism_model_v1.joblib")
 
 # Load the model
 model = joblib.load(model_path)
